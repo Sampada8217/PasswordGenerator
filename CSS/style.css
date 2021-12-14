@@ -1,0 +1,88 @@
+
+
+body {
+    background-color: #3b3b98;
+    color:#fff;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+.container {
+
+    background-color: #23235b;
+    box-shadow: 0px 2px 10px  rgba(255,255,255,0.2);
+    padding: 3rem;
+    size: 30px;
+    align-items: center;
+    flex-direction: column;
+    border: white;
+    border-radius: 1rem;
+
+
+}
+
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    align-items: center;
+}
+
+.title{
+    margin: 0;
+    text-align: center;
+}
+
+label{
+  font-weight: bold;
+}
+
+.character_amount_container {
+    display: flex;
+    align-items: center;
+
+}
+
+#numberLength {
+    width: 2rem;
+}
+.pass_display {
+    background-color:white;
+    color: black;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #333;
+    height: 2rem;
+    width:350px;
+    display: flex;
+    justify-content: center;
+    word-break: break-all;
+    border-radius: .5rem;
+
+}
+
+#generate{
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid white;
+    background-color: white; 
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.btn:hover{
+    background-color: #FFFFFF33;
+}
